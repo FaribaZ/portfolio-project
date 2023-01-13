@@ -112,3 +112,8 @@ footer .fa-brands {
 footer .fa-brands:hover {
   color: #fac710;
 }
+
+h1 {
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+}
