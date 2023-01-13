@@ -117,3 +117,12 @@ h1 {
   font-size: 60px;
   font-family: "Montserrat", sans-serif;
 }
+
+h2 {
+  font-family: "Alata", sans-serif;
+}
+.card-text {
+  font-size: 14px;
+  text-align: left;
+  justify-content: left;
+}
