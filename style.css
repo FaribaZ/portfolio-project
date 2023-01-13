@@ -54,6 +54,13 @@ img {
   color: #fac710;
   text-decoration: underline;
 }
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #fac710;
+  text-decoration: underline;
+}
 .card {
   background-color: rgb(15, 15, 37);
 }
@@ -95,4 +102,13 @@ img {
 
 ::selection {
   background: #fac710;
+}
+
+footer .fa-brands {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+footer .fa-brands:hover {
+  color: #fac710;
 }
