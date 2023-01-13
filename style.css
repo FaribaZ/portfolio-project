@@ -9,12 +9,12 @@ font-family: 'Montserrat', sans-serif;
 */
 
 .main-body {
-  background-color: #151515;
+  background-color: #010101;
   display: block;
   color: white;
 }
 .navbar {
-  background-color: #151515;
+  background-color: #010101;
 }
 .name {
   font-family: "Alata", sans-serif;
@@ -32,11 +32,11 @@ font-family: 'Montserrat', sans-serif;
   font-family: "Alata", sans-serif;
   color: #999;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 img {
-  width: 275px;
+  width: 400px;
 }
 
 .title {
@@ -47,6 +47,10 @@ img {
   font-size: 30px;
 }
 .navbar-brand:hover {
+  color: #fac710;
+  text-decoration: underline;
+}
+.nav-link:hover {
   color: #fac710;
   text-decoration: underline;
 }
@@ -87,4 +91,8 @@ img {
   -webkit-transform-origin: 0% 50%;
   -ms-transform-origin: 0% 50%;
   transform-origin: 0% 50%;
+}
+
+::selection {
+  background: #fac710;
 }
